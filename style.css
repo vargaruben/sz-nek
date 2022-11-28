@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+    margin: 20px;
+}
+
+/* csökkenő sorrend, csak változás */
+@media all and (max-width:1200px){
+    body{
+        background-color: rgb(red, green, blue);
+    }
+}
+
+@media all and (max-width:800px){
+    body{
+        background-color: rgb(red, green, blue);
+    }
+}
